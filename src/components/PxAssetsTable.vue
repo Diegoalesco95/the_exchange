@@ -32,7 +32,6 @@
 <script>
 export default {
   name: "PxAssetsTable",
-
   props: {
     assets: {
       type: Array,
