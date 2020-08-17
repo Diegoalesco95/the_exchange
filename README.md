@@ -1,24 +1,38 @@
-# the_exchange
+# The exchange (Vue.js)
 
-## Project setup
+¡Bienvenido y gracias por visitarme! Este es un proyecto elaborado como proyecto de aprendizaje de Vue.js [Platzi](https://platzi.com/cursos/vuejs/) en donde aplico varios de los conocimientos y habilidades adquiridas, entre ellas:
+
+- Entender las ventajas de Vue.js
+- Obtener datos de una API externa
+- Hacer despliegue a producción
+
+## Vista de Home
+
+![Home Page](.readme-static/The_exchange.jpg)
+
+### [Ver Home](https://the-exchange.diegoalesco95.vercel.app/)
+
+## Configuración de proyecto
+
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compilar y hot-reloads para desarrollo
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Compilar y minificar para Producción
 ```
 npm run build
 ```
 
-### Lints and fixes files
+### Lint y arreglar archivos
 ```
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Personalizar configuraciones
+Ver [Configuracion de referencia](https://cli.vuejs.org/config/).
+
