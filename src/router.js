@@ -13,22 +13,34 @@ export default new Router({
     {
       path: "/",
       name: "home",
-      component: Home
+      component: Home,
+      meta: {
+        title: "Home Page - The Exchange"
+      }
     },
     {
       path: "/about",
       name: "about",
-      component: About
+      component: About,
+      meta: {
+        title: "About - The Exchange"
+      }
     },
     {
       path: "/coin/:id",
       name: "coin-detail",
-      component: CoinDetail
+      component: CoinDetail,
+      meta: {
+        title: "Details - The Exchange"
+      }
     },
     {
       path: "*",
       name: "Error",
-      component: Error
+      component: Error,
+      meta: {
+        title: "Error - The Exchange"
+      }
     }
   ]
 })

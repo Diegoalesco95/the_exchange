@@ -30,6 +30,14 @@ export default {
         }
       ]
     }
+  },
+  watch: {
+    $route: {
+      handler: to => {
+        document.title = to.meta.title || "The exchange"
+      },
+      immediate: true
+    }
   }
 }
 </script>
